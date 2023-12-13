@@ -1,3 +1,19 @@
 body {
-  background-color: blue;
+    background-color:#02feff ;
+}
+h2 {
+    border-style:double ;
+    padding: 2rem ;
+    text-align: center;
+
+}
+button {
+    cursor: pointer;
+}
+.no-border {
+    border: none;
+    background: none;
+    color:blue;
+    text-decoration: underline;
+   
 }
