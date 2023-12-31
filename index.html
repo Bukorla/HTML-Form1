@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trial</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <h2>Student Registeration Form</h2>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter full name">
+        <br> <br>
+        <label for="fname"> Father's Name:</label>
+        <input type="text" name="name" id="fname">
+        <br> <br>
+        <label for="mname">Mother's Name:</label>
+        <input type="text" name="name" id="mname">
+        <br> <br>
+        <label for="pnom">Mother's Name:</label>
+        <input type="tel" name="p-nom" id="pnom" placeholder="017xxxxxxxx">
+        <br> <br>
+        <label for="">Email:</label>
+        <input type="email" name="email" id="email" placeholder="sample@example.com">
+        <br> <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender1">
+        <label for="gender1">Male:</label>
+        <input type="radio" name="gender" id="gender2">
+        <label for="gender2">Female:</label>
+        <input type="radio" name="gender" id="gender3">
+        <label for="gender3">Other:</label>
+        <br> <br>
+        <label for="date">Date Of Birth:</label>
+        <input type="number" name="date1" id="date" min="1" max="31" maxlength="3">- 
+        <input type="text" name="date" id="date2" list="months">-
+        <datalist id="month">
+            <option value="Jan">
+            <option value="Feb">
+            <option value="Mar">
+            <option value="Apri">
+            <option value="May">  
+            <option value="Jun">
+            <option value="Jul">
+            <option value="Aug">
+            <option value="Sep">
+            <option value="Oct">  
+            <option value="Nov">
+            <option value="Dec">   
+        </datalist>
+        <input type="number" name="date" id="year" min="1800" max="2023">
+        <span>(dd-mm-yyy)</span>
+        <br> <br>
+        <label for="">Address:</label>
+        <input type="text" name="address" id="address" placeholder="Street- House-Road-">
+        <br> <br>
+        <label for="blood group">Blood Group:</label>
+        <select name="b-group" id="b-group">
+            <option value="Select">Select</option>
+            <option value="Blood Group A">A</option>
+            <option value="Blood Group O+">O+</option>
+            <option value="Blood Group AB">AB</option>
+        </select>
+        <br> <br>
+        <label for="department">Department:</label>
+        <input type="radio" name="department" id="department1">
+        <label for="department1">CSE</label>
+        <input type="radio" name="department" id="department2">
+        <label for="department2">EEE</label>
+        <input type="radio" name="department" id="department3">
+        <label for="department3">BBA</label>
+        <br> <br>
+        <label for="course1">Course:</label>
+        <input type="checkbox" name="course" id="course1">
+        <label for="course1">C</label>
+        <input type="checkbox" name="course" id="course2">
+        <label for="course2">C++</label>
+        <input type="checkbox" name="course" id="course3">
+        <label for="course3">Java</label>
+        <input type="checkbox" name="course" id="course4">
+        <label for="course4">AI</label>
+        <input type="checkbox" name="course" id="course5">
+        <label for="course5">Machine learning</label>
+        <input type="checkbox" name="course" id="course6">
+        <label for="course6">Robotics</label>
+        <br> <br>
+        <label for="Photo">Photo:</label>
+        <input type="file">
+        <br> <br>
+        <button type="submit" name="submit" id="">Submit</button>
+    </form>
+</body>
+</html>
